@@ -38,6 +38,7 @@ The ways to be able to increase engagement and profit from the suburban areas is
 
 ### Rural Areas:
 
+The ways to be able to increase profit in the rural areas is to create incentives for the repeating customers, as it is not used a lot by customers. We will need to push on the repeating customer which is one of the ways to be able to help in this city type. So, we could implement some reward systems to help the customers to come back and use the service which will mean more rides, this will in turn get more drivers to join the work.  
 
 
 ## Tables of The Results:
