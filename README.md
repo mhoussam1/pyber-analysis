@@ -14,10 +14,7 @@ In this repository I demonstrated skills using python with matplotlib library fo
 
 ### 	Summary:
 
-
-
-
-
+The summary data frame shows the relation that is between the rides, fare metrics and the number of drivers. It shows how most of the revenue is generated and shown from the city type that is the urban areas, then comes suburban and finally the least amount is the rural areas. The results also show that there is a negative correlation between the number of drivers and the riders in a certain area.
 
 
 ## Business Recommendations:
@@ -27,9 +24,20 @@ The following 3 types of recommendations
 
 ### Urban Areas:
 
+
+To increase the revenue from the urban areas which are very highly populated we will need to create more advertising campaigns to be able to attract new riders and drivers. Start rewards systems to help get the repeating customer a points system to earn free and discounted rides, which will increase the usage from the riders.  
+
+
 ### Suburban Areas:
 
+
+
+The ways to be able to increase engagement and profit from the suburban areas is to reward and protect the drivers. This will help produce more drivers which will in turn get more rides. As been seen that the drivers have a correlation with the number of rides happening. So producing a marketing campaign to get more drivers signed up.  
+
+
+
 ### Rural Areas:
+
 
 
 ## Tables of The Results:
