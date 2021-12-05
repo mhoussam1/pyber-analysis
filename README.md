@@ -1,12 +1,13 @@
-# School_District_Analysis
+# Pyber-analysis
 
 
 ## Overview of Project
 # Background: 
 
-The school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. She has asked you to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once you’ve replaced the math and reading scores, Maria would like you to repeat the school district analysis that you did in this module and write up a report to describe how these changes affected the overall analysis.
+V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 
-The analysis preformed compares the previous school district analysis against this firm's analysis in order to find out and determine how academic dishonesty affects the school’s performance. 
+In this repository I demonstrated skills using python with matplotlib library for charting to performe analysis and charting for presentation.
+
 
 
 ## Analysis and Challenges
@@ -24,61 +25,70 @@ Thomas High School's overall performance is seen to be better and jumps to the 2
 
 ## How does replacing the ninth-grade scores affect the following:
 
-- Math and reading scores by grade
 
-Because Thomas High School ninth graders are labeled as nan in both math and reading. This creates a void in the data and makes them be seen as an outlier. Because those results make a big effect on the percentages. 
-
-- Scores by school spending
-From the graph we are able to see that the campaigns with goals less then 20k and between 35-45k have a higher percentage of successful campaigns while campaigns with goals greater then 45k or between 20-35k showed a higher percentage of failed campaigns. There was no record of any canceled campaigns therefore it was not shown on the graph. 
-
-
-- Scores by school size
-
-
-All the percentages went down for all the different sized school groups, especially shown on the small and medium sized schools. 
-
-
-
-- Scores by school type
-
-The percentages are also seen to be dropping for both school types, showing decreases in all subjects. 
 
 ## Tables of The Results:
 
-- Math Scores
+- Pyber fare summary
 
-<img width="315" alt="math scores " src="https://user-images.githubusercontent.com/93894964/143817347-f2dc872c-943f-47c8-9fe9-2581e3893e53.png">
-
-- Reading Scores
-<img width="306" alt="reading scores" src="https://user-images.githubusercontent.com/93894964/143817407-19318717-af67-4150-a868-f6f41592abd7.png">
-- Spending Summary
-<img width="870" alt="spending summary " src="https://user-images.githubusercontent.com/93894964/143817444-f1fa321d-000c-496d-b204-8a654c7a4ac6.png">
-
-- Size Summary 
-<img width="814" alt="size summary" src="https://user-images.githubusercontent.com/93894964/143817648-6029243e-9165-40b4-a6a9-21490a62b01f.png">
+![Pyber_fare_summary](https://user-images.githubusercontent.com/93894964/144764381-e44b0070-75eb-4877-9236-9c8c99012b7d.png)
 
 
-- Score by school type 
-<img width="771" alt="score by school type " src="https://user-images.githubusercontent.com/93894964/143817665-9e8987da-cf8d-4925-8517-845ec589570e.png">
-
-- Student Data 
-<img width="627" alt="student data" src="https://user-images.githubusercontent.com/93894964/143817854-d9547819-0ca4-4cf4-aba7-d4f35befb6cc.png">
+- Average fare per ride for each city type 
+<img width="281" alt=" average fare per ride for each city type" src="https://user-images.githubusercontent.com/93894964/144764403-0dc496ab-dadf-4435-a9e4-42c15096ee79.png">
 
 
-- Student Data for THS
-<img width="671" alt="student data THS" src="https://user-images.githubusercontent.com/93894964/143817683-5eb9ad90-e811-4ce1-adbf-20b81175d287.png">
+- Amount of fare for each city type 
+
+<img width="295" alt="amount of fares for each city type " src="https://user-images.githubusercontent.com/93894964/144764428-7cb45285-94c8-4697-ab6a-9786f2c6d672.png">
 
 
-- District Summary 
-<img width="850" alt="district 1st" src="https://user-images.githubusercontent.com/93894964/143817766-f6fbd909-54fc-4576-964d-358aaa300321.png">
-<img width="979" alt="district summary " src="https://user-images.githubusercontent.com/93894964/143817787-2caec960-1bb9-4186-a484-25a9706530ca.png">
+- average fare per driver for each city type 
+<img width="267" alt="average fare per driver for each city type  " src="https://user-images.githubusercontent.com/93894964/144764446-b86c6d9a-c4ae-4da8-baec-939e9a3f6815.png">
 
-- School Summary 
-<img width="1000" alt="school summary " src="https://user-images.githubusercontent.com/93894964/143817914-6b8bc15d-c996-4cf2-b96e-26db8f42c6b6.png">
-<img width="1000" alt="school summary 2" src="https://user-images.githubusercontent.com/93894964/143817926-50bf3029-def5-46d6-ac24-b094c8228cb1.png">
 
-<img width="1014" alt="school summary 3" src="https://user-images.githubusercontent.com/93894964/143817960-f1880a61-a412-45ca-b7d2-b5b800f52470.png">
 
-<img width="1008" alt="school summary 4" src="https://user-images.githubusercontent.com/93894964/143817975-bdada6b7-78e6-46cc-b090-81190582b29f.png">
+- City view 
+<img width="679" alt="city view" src="https://user-images.githubusercontent.com/93894964/144764467-8235c94d-7c2d-4c7f-817e-7026fb91ebc1.png">
+
+
+- Clean dataframe
+
+<img width="631" alt="clean dataframe " src="https://user-images.githubusercontent.com/93894964/144764500-ca83e630-44d7-402c-bbe7-3984dcdb895b.png">
+
+
+- data index
+
+<img width="442" alt="date index " src="https://user-images.githubusercontent.com/93894964/144764519-c952e615-08be-4f31-8101-e05dd4cb3c52.png">
+<img width="291" alt="index reset " src="https://user-images.githubusercontent.com/93894964/144764523-84ccec70-ce4c-4eb8-8536-6bc6d51c6bd2.png">
+
+<img width="615" alt="merged dataframe " src="https://user-images.githubusercontent.com/93894964/144764542-a93ecf81-48ff-467b-b066-ec3777006370.png">
+<img width="373" alt="resample dataframe " src="https://user-images.githubusercontent.com/93894964/144764560-d0335ba2-7f07-43bf-9833-71fba296576f.png">
+
+<img width="650" alt="pyber dummary dataframe" src="https://user-images.githubusercontent.com/93894964/144764573-cfec54ce-e793-4be3-97c0-1fb2cd06fa12.png">
+
+- Pibot table 
+<img width="428" alt="pivot table " src="https://user-images.githubusercontent.com/93894964/144764555-acda5b42-6692-44cd-8963-b5aa07b512af.png">
+
+
+- Sum of fares
+<img width="619" alt="sum of fares " src="https://user-images.githubusercontent.com/93894964/144764590-821eb6fa-178a-40a0-81a0-c5c2d8374d93.png">
+
+
+- total drivers for city type 
+
+<img width="358" alt="total drivers for city type " src="https://user-images.githubusercontent.com/93894964/144764596-27da0a1b-b959-4f79-8e30-a27a2cc28250.png">
+
+- total fares by city graph
+
+<img width="1070" alt="total face by city graph" src="https://user-images.githubusercontent.com/93894964/144764597-ae116984-d2c0-494f-9d0a-48f6c09d7972.png">
+
+
+- total rides by city type 
+
+
+<img width="360" alt="total rides by city type " src="https://user-images.githubusercontent.com/93894964/144764603-c754b2ad-ff56-4010-a826-b457621a5f5a.png">
+
+
 
 
