@@ -12,19 +12,24 @@ In this repository I demonstrated skills using python with matplotlib library fo
 
 ## Analysis and Challenges
 
-### 	How is the district summary affected?
-The district summary is affected as the clean version for the data removes a total of 461 results from the 9th graders from Thomas High School, which in turn has a huge effect on the averages and the percentages. The percentages are seen to drop because of the changes which are the removal of the data. 
+### 	Summary:
 
-### 	How is the school summary affected?
 
-We see that the school summary is affected when it comes to the percentages for math, reading and the overall grades. Once the grades for the 9th grade are removed. We can see that there is the Thomas high school they jump to the 2nd, the totals for the 10th till the 12th grade percentages. They can be seen on the pictures. 
 
-### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-Thomas High School's overall performance is seen to be better and jumps to the 2nd on the list, moving down a lot of schools. 
 
-## How does replacing the ninth-grade scores affect the following:
 
+
+### Business Recommendations:
+
+
+The following 3 types of recommendations
+
+## Urban Areas:
+
+## Suburban Areas:
+
+## Rural Areas:
 
 
 ## Tables of The Results:
@@ -78,10 +83,6 @@ Thomas High School's overall performance is seen to be better and jumps to the 2
 - total drivers for city type 
 
 <img width="358" alt="total drivers for city type " src="https://user-images.githubusercontent.com/93894964/144764596-27da0a1b-b959-4f79-8e30-a27a2cc28250.png">
-
-- total fares by city graph
-
-<img width="1070" alt="total face by city graph" src="https://user-images.githubusercontent.com/93894964/144764597-ae116984-d2c0-494f-9d0a-48f6c09d7972.png">
 
 
 - total rides by city type 
