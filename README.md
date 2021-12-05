@@ -20,16 +20,16 @@ In this repository I demonstrated skills using python with matplotlib library fo
 
 
 
-### Business Recommendations:
+## Business Recommendations:
 
 
 The following 3 types of recommendations
 
-## Urban Areas:
+### Urban Areas:
 
-## Suburban Areas:
+### Suburban Areas:
 
-## Rural Areas:
+### Rural Areas:
 
 
 ## Tables of The Results:
